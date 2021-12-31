@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+#value {
+    display: block;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: white;
+    margin: 26px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.increase-btn {
+    background-color: green;
+}
+
+.decrease-btn {
+    background-color: red;
+}
+
+.reset-btn {
+    background-color: black;
+    color: white;
+}
+
+
+.increase-btn:hover {
+    background-color: white;
+    color: green;
+    transition: 0.3s ease-in-out;
+}
+
+.decrease-btn:hover {
+    background-color: white;
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+
+.reset-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
