@@ -11,7 +11,7 @@ body {
 h1 {
     font-size: 3.5em;
     text-transform: capitalize;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #value {
@@ -31,6 +31,31 @@ h1 {
     font-weight: bold;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* .btns {
+} */
+
+.add-btns, .minus-btns  {
+    margin: 0 25px;
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    border-radius: 10px;
+}
+
+.minus-btns {
+    background-color: red;
+}
+
+.add-btns {
+    background-color: green;
+}
+
 .increase-btn {
     background-color: green;
 }
@@ -45,13 +70,13 @@ h1 {
 }
 
 
-.increase-btn:hover {
+.increase-btn:hover, .add-btns:hover {
     background-color: white;
     color: green;
     transition: 0.3s ease-in-out;
 }
 
-.decrease-btn:hover {
+.decrease-btn:hover, .minus-btns:hover {
     background-color: white;
     color: red;
     transition: 0.3s ease-in-out;
